@@ -35,7 +35,6 @@ else:
     print("The given numbers are not even so they will not be summed")
 
 
-
 # 5 დავალება
 name = input("Your name is:")
 surname = input("Your surname is:")

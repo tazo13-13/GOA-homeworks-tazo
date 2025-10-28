@@ -1,4 +1,4 @@
-#3,
+#3 დავალება
 name = "tazo"
 surname = "terterashvili"
 age = 15
@@ -6,15 +6,15 @@ height = 1.75
 print("me var", name,"chemi gvaria", surname, "me var", age, "wlis", "var", height, "cm")
 
 
-#4,
+#4 დავალება
 #declaration - დეკლარაცია არის ცვლადის სახელის შექმნა,
 
 
-#5,
+#5 დავალება
 #print () - print-ს გამოაქვს ცვლადის მნიშვნელობა ტერმინალში
 
 
-#6,
+#6 დავალება
 # 1.integer(მთელი რიცხვი)
 age = 15
 year = 2025

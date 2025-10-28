@@ -1,10 +1,8 @@
 from turtle import*
 
-
 print("tazo terterashvili")
 speed(10)
 #paint house
-
 
 width(3)
 color("lime")
@@ -53,18 +51,11 @@ penup()
 goto(200,200)
 pendown()
 
-
 color("lime")
-
 
 left(31)
 
-
 forward(40)
-
-
-
-
 
 begin_fill()
 color("blue")
@@ -85,22 +76,17 @@ pendown()
 
 # start 
 
-
 color("lime")
-
 
 right(179)
 forward(200)
 left(90)
 
-
 forward(40)
 left(90)
 
-
 color("blue")
 begin_fill()
-
 
 forward(60)
 
@@ -113,11 +99,5 @@ right(90)
 forward(60)
 
 end_fill()
-
-
-
-
-
-
 
 exitonclick()

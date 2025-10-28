@@ -27,6 +27,7 @@ print(numbers)
 cordinates = (100, 100)
 print(cordinates)
 
+
 #დავალება 2
 name = "luka"
 name = "tazo"

@@ -16,7 +16,3 @@ if age >= 18:
   print("you are an adult")
 else:
   print("you are a kid")
-
-
-for i in range(0 , 10):
-    print(i)
