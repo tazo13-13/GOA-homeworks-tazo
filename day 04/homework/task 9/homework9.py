@@ -1,5 +1,5 @@
 # 13
 name = "tazo"
 
-for letter in name:
-    print(letter)
+for i in name:
+    print(i)

@@ -1,3 +1,3 @@
 # 11 დავალება
-for i in range(11):
+for i in range(10+1):
     print(i)
