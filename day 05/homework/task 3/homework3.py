@@ -4,7 +4,6 @@ password = "12345678"
 guess = input("enter password: ")
 
 while guess != password:
-    print("wrong password")
     
-guess = input("enter password: ")
+    guess = input("wrong enter again password: ")
 print("password is correct")
