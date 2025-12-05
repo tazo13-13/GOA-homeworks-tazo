@@ -90,5 +90,3 @@ print(numss)
 nums2 = [1, 2, 3, 4, 4, 4, 7, 2, 77, 77, 10]
 nume3 = set(nums2)
 print(nume3)
-
-# 9)
