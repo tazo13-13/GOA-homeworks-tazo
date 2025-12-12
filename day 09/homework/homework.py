@@ -90,3 +90,15 @@ print(numss)
 nums2 = [1, 2, 3, 4, 4, 4, 7, 2, 77, 77, 10]
 nume3 = set(nums2)
 print(nume3)
+
+
+# 9)
+def remove_duplicates(array):
+    result = []
+
+    for i in array:
+        if array.count(i) == 1:
+            result.append(i)
+    return result
+
+print(remove_duplicates([1,1,1,1,1,2,2,2,5,5,5,5,3,3,0]))
