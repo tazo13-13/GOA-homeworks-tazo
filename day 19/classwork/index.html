@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1) -->
+    <table border="1">
+        <tr>
+            <th>NAME</th>
+            <th>Class</th>
+            <th rowspan="3">MVM school</th>
+        </tr>
+        <tr>
+            <td>Adam</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>11</td>
+        </tr>
+    </table>
+    <br><br>
+    <!-- 2) -->
+    <!-- colspan - ადიდებს სიგანეში 
+    rowspan - ადიდებს სიმაღლეში
+    table - წარმოადგენს ელემენტებს ცხრილის სახით
+    tr - აჯგუფებს მონაცემს
+    th - წარმოადგენს სათაურს გამოკვეთილად~
+    td - შეგვყავს უბრალო მონაცემი
+    thead, tbody - უბრალო თეგები არაფერს ცვლის მარტო უფრო დალაგებულს და მარტივად გასარჩევს ხდის კოდს-->
+
+    <!-- 3) 1 -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Expense</th>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>$8</td>
+        </tr>
+        <tr>
+            <td colspan="3">SUM = $18</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- 3) 2 -->
+    <table border="1">
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Row 1 cell 1</td>
+        </tr>
+
+        <tr>
+            <td>Row 2 cell 1</td>
+            <td>Row 2 cell 2</td>
+        </tr>
+
+        <tr>
+            <td>Row 3 cell 1</td>
+            <td>Row 3 cell 2</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Row 3 cell 1</td>
+        </tr>
+    </table>
+</body>
+</html>
