@@ -1,0 +1,25 @@
+#ta {
+    width: 300px;
+    border-collapse:collapse;
+    border-color: greenyellow;
+}
+th,td {
+    text-align: center;
+}
+.th {
+    background-color: green;
+    color: white;
+}
+
+#tableV2 {
+    width: 300px;
+    border-collapse: separate;
+    border-color: rgb(0, 255, 106);
+}
+#thV2 {
+    background-color: orange;
+}
+
+.th2 {
+    background-color: orange;
+}

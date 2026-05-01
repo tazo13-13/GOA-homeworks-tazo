@@ -1,0 +1,13 @@
+
+li {
+    text-transform: capitalize;
+    color:blue;
+}
+
+table {
+    background-color: aqua;
+    border-collapse: collapse;
+    color: black;
+    width: 300px;
+
+}
