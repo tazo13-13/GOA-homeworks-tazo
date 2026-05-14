@@ -47,6 +47,10 @@
     width: 350px;
     height: 300px;
 }
+#d3:hover {
+    color: blue;
+    background-color: red;
+}
 
 #z1 {
     text-align: center;
