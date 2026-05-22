@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+#div1 {
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#div2 {
+    width: 400px;
+    height: 600px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 7%;
+    box-shadow: 8px 8px 0 0;
+}
+
+
+#div2_top {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 90%;
+    gap: 13px;
+    padding: 10px;
+}
+
+
+#img1 {
+    height: 70%;
+    margin: 5px;
+    border-radius: 8%;
+}
+
+
+#h1 {
+    width: 77px;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 13px;
+    border-radius: 13%;
+}
+
+#p1 {
+    font-size: 13px;
+}
+
+
+#div2_down {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 90%;
+    gap: 40px;
+}
+
+#h2 {
+    font-size: 25px;
+}
+
+#p2 {
+    gap: 9px;
+}
+
+#img2 {
+    width: 13%;
+}
+
+#p3 {
+    font-weight: 600;
+}
+
+#div2_down div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
