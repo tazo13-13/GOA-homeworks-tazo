@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#les_1 {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+#les {
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+
+/* 2) */
+
+#les_2 {
+    width: 350px;
+    height: 250px;
+    border: 2px solid lightblue;
+    position: relative;
+}
+
+
+#les2 {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+
+
+/* 3 */
+
+#les_3 {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+
+/* 4 */
+
+
+#les_4 {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: sticky;
+    top: 10px;
+}
