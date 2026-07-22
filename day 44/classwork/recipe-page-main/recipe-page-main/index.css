@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    border-radius: 4%;
+}
+
+
+body {
+    height:150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%)
+}
+
+
+#border {
+    margin-top: 500px;
+    width: 850px;
+    height: 1800px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#perent {
+    width: 90%;
+    height: 95%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#child_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    gap: 15px;
+}
+
+#st1_h {
+    font-family: "Young Serif", serif;
+}
+
+#st1_p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+#child_2 {
+    width: 100%;
+    height: 15%;
+    background-color: hsl(330, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+#st2_h {
+    color: hsl(332, 51%, 32%);
+}
+
+
+#st2_ul {
+    padding-left: 40px;
+    color: hsl(332, 51%, 32%);
+    line-height: 29px;
+}
+
+
+
+
+
+
+#child_3 {
+    margin-top: 25px;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#st3_h {
+    color: hsl(14, 45%, 36%);
+    font-size: 35px;
+}
+
+#st3_ul
+    {
+        color: hsl(14, 45%, 36%);
+        padding-left: 28px;
+        line-height: 29px;
+    }
+
+
+#break {
+    width: 100%;
+    height: 1px;
+    background-color: hsl(30, 10%, 34%);
+}
+
+
+
+
+#child_4 {
+    margin-top: 20px;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+
+#st4_h {
+    color: hsl(14, 45%, 36%);
+    font-size: 35px;
+}
+
+#st4_ol {
+    padding-left: 40px;
+    color: hsl(332, 51%, 32%);
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+
+
+
+#break2 {
+    width: 100%;
+    height: 1px;
+    background-color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+}
+
+
+#child5_h {
+    
+}
+
+#st5_h {
+    color: hsl(14, 45%, 36%);
+    font-size: 35px;
+}
